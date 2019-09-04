@@ -1,0 +1,39 @@
+html {font-size: 100%}
+body {background: url(https://img.fonwall.ru/o/7/vecher-doma-neboskrebyi-ulitsyi.jpg) 
+no-repeat;
+background-size: 100%;
+background-attachment: fixed;	
+font-size: 32px
+font-size:3.2rem;
+}
+#mainmenu {max-width: 500px;
+	margin: 0 auto;
+}
+.menu {list-style-type: none;
+margin-left: : 0;
+padding-left: 0;
+overflow: hidden;
+}
+.menu a { text-decoration: none;
+	font-family: sans-serif;
+	color: #212F3C;
+	display: inline-block;
+	padding: 10px 20px;
+background-color: #239B56;
+border-top: 5px solid #212F3C;
+}
+.menu li {display: inline;
+	margin-right: -4px;
+}
+
+img {position: relative;
+top:0;
+left: 50%;
+transform: translateX(-50%);}
+div div {color: orange;
+	font-size: 50px;
+	font-size: 5.0rem;
+}
+p {color: red;
+font-size: 40px;
+font-size: 4.0rem}
