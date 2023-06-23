@@ -1,40 +1,68 @@
-html {font-size: 100%}
-body {background: url(https://img.fonwall.ru/o/7/vecher-doma-neboskrebyi-ulitsyi.jpg) 
-no-repeat;
-background-size: 100%;
-background-attachment: fixed;	
-font-size: 32px
-font-size:3.2rem;
-}
-#mainmenu {max-width: 500px;
-	margin: 0 auto;
-}
-.menu {list-style-type: none;
-margin-left: : 0;
-padding-left: 0;
-overflow: hidden;
-}
-.menu a { text-decoration: none;
-	font-family: sans-serif;
-	color: #212F3C;
-	display: inline-block;
-	padding: 10px 20px;
-background-color: #239B56;
-border-top: 5px solid #212F3C;
-}
-.menu li {display: inline;
-	margin-right: -4px;
+body{
+    background: url(https://img.fonwall.ru/o/7/vecher-doma-neboskrebyi-ulitsyi.jpg) 
+    no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;	
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
 }
 
-img {width: 800px;
-position: relative;
-top:0;
-left: 50%;
-transform: translateX(-50%);}
-div div {color: orange;
-	font-size: 50px;
-	font-size: 5.0rem;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
-p {color: red;
-font-size: 40px;
-font-size: 4.0rem}
+
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+main {
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
