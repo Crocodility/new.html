@@ -1,34 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>My first site</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px;
+        }
+        
+        nav ul li a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+        
+        main {
+            margin: 20px;
+        }
+        
+        section {
+            margin-bottom: 20px;
+        }
+        
+        h1, h2 {
+            color: #333;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
 <body>
-	
-	<div id="mainmenu">
-		<ul class="menu">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Gallery</a></li>
-			<li><a href="#">News</a></li>
-			<li><a href="#">Contacts</a></li>
-			<li><a href="#">Test</a><li>	
-		</ul>
-	</div>
-	<h1>Lorem <a href="http:google.com">ipsum</a>.</h1>
-	<br><big>123</big></br>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg" alt="No inernet connection">
-		
-	<br><input value="Search" /></br>
-	<div class=".cl1">125
-		<div>137
-			<div>456
-			</div>
-		</div>
-	</div>
-	<p>Абзац</p>
+    <header>
+        <h1>Welcome to My Web Page</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>About Me</h2>
+            <p>I am a web developer passionate about creating amazing websites.</p>
+        </section>
+        
+        <div>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg" width=100% alt="No internet connection">
+        </div>  
+
+        <section>
+            <h2>Contact Information</h2>
+            <p>Email: example@example.com</p>
+            <p>Phone: 123-456-7890</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Web Page. All rights reserved.</p>
+    </footer>
 </body>
 </html>
